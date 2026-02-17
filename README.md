@@ -4,6 +4,41 @@ This is a full stack programming assessment for the **Muslim Tech Collaborative 
 
 ---
 
+## Getting Started
+
+### Backend
+
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+Create a `.env` file inside `backend/`:
+```
+ISLAMIC_API_KEY=your_key_here
+```
+
+Start the dev server:
+```bash
+fastapi dev main.py
+```
+
+The API will be available at `http://localhost:8000`.
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`.
+
+---
+
 ## The Task
 
 ### Backend
@@ -75,41 +110,6 @@ Build a frontend that:
 
 - **Backend:** Python, [FastAPI](https://fastapi.tiangolo.com/), `httpx` (for calling the external API), `python-dotenv`
 - **Frontend:** React 19, TypeScript, Vite
-
----
-
-## Getting Started
-
-### Backend
-
-```bash
-cd backend
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-Create a `.env` file inside `backend/`:
-```
-ISLAMIC_API_KEY=your_key_here
-```
-
-Start the dev server:
-```bash
-fastapi dev main.py
-```
-
-The API will be available at `http://localhost:8000`.
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-The app will be available at `http://localhost:5173`.
 
 ---
 
