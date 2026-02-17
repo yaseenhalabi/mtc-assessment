@@ -1,10 +1,14 @@
 # MTC Programming Assessment
 
-This is a full stack programming assessment for the **Muslim Tech Collaborative (MTC)**. You will build a Ramadan calendar app that fetches prayer/fasting times from a live API and displays them in a clean, interactive UI.
+This is a full stack programming assessment for **Muslim Tech Collaborative (MTC)**. You will build a Ramadan calendar feature that fetches prayer/fasting times from a live API and displays them in a clean UI.
 
 ---
 
 ## Getting Started
+
+```bash
+git clone https://github.com/yaseenhalabi/mtc-assessment.git
+```
 
 ### Backend
 
